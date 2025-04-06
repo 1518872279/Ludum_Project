@@ -13,6 +13,8 @@ Shader "Custom/FurShader"
         _WindStrength ("Wind Strength", Range(0, 1)) = 0.5
         _FurGravityStrength ("Fur Gravity", Range(0, 1)) = 0.25
         _Layer ("Layer", Range(0, 1)) = 0.0 // Will be set by the renderer for each shell
+        _VerticalDir ("Vertical Direction", Vector) = (0, 1, 0, 0)
+        _UseVerticalDir ("Use Vertical Direction", Range(0, 1)) = 0
         
         // Brush properties (controlled via script)
         // _BrushPos ("Brush Position", Vector) = (0, 0, 0, 0)
@@ -75,6 +77,8 @@ Shader "Custom/FurShader"
             float _WindStrength;
             float _FurGravityStrength;
             float _Layer;
+            float4 _VerticalDir;
+            float _UseVerticalDir;
             
             // Brush properties (set globally from script)
             float3 _BrushPos;
@@ -172,8 +176,11 @@ Shader "Custom/FurShader"
                 // Compute gravity effect
                 float3 gravity = float3(0, -1, 0) * _FurGravityStrength;
                 
-                // Displace vertex along its normal, scaled by fur length, layer position, and influenced by wind and gravity
-                float3 offset = v.normal * _FurLength * _Layer;
+                // Choose between normal direction and vertical direction
+                float3 furDirection = lerp(v.normal, normalize(_VerticalDir.xyz), _UseVerticalDir);
+                
+                // Displace vertex along the chosen direction, scaled by fur length, layer position, and influenced by wind and gravity
+                float3 offset = furDirection * _FurLength * _Layer;
                 offset += wind * _Layer * _WindDirection.xyz * _FurLength;
                 offset += gravity * _Layer * _Layer * _FurLength;
                 

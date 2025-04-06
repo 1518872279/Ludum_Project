@@ -12,6 +12,17 @@ public class FurSweeping : MonoBehaviour
     public float sweepMomentum = 0.7f;      // How much the sweep effect persists (0-1)
     public float movementSensitivity = 0.001f; // How sensitive the effect is to mouse movement
     
+    [Header("Vertical Fur Settings")]
+    [Tooltip("Keeps sweep direction more horizontal for vertical fur")]
+    public bool optimizeForVerticalFur = false;
+    [Range(0f, 1f)]
+    [Tooltip("How much to flatten the sweep direction to be horizontal")]
+    public float horizontalBias = 0.8f;
+    [Tooltip("Add a slight downward bias to sweep direction to reveal surface")]
+    public bool addDownwardBias = false;
+    [Range(0f, 0.5f)]
+    public float downwardBiasStrength = 0.2f;
+    
     private Vector3 lastMousePosition;
     private Vector3 sweepPosition;
     private Vector3 sweepDirection;
@@ -60,7 +71,22 @@ public class FurSweeping : MonoBehaviour
                     worldMoveDir = mainCamera.transform.TransformDirection(worldMoveDir);
                     sweepDirection = transform.InverseTransformDirection(worldMoveDir);
                     
-                    // Ensure direction is normalized and has a proper magnitude in local space
+                    // Optimize for vertical fur if enabled
+                    if (optimizeForVerticalFur)
+                    {
+                        // Project the sweep direction more onto horizontal plane
+                        Vector3 horizontalDir = new Vector3(sweepDirection.x, 0, sweepDirection.z).normalized;
+                        sweepDirection = Vector3.Lerp(sweepDirection, horizontalDir, horizontalBias);
+                        
+                        // Add a slight downward component to help reveal the surface
+                        if (addDownwardBias)
+                        {
+                            Vector3 downwardDir = new Vector3(0, -1, 0);
+                            sweepDirection = Vector3.Lerp(sweepDirection, downwardDir, downwardBiasStrength);
+                        }
+                    }
+                    
+                    // Ensure direction is normalized
                     sweepDirection = sweepDirection.normalized;
                     
                     // Send the sweep parameters to the shader

@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -251,7 +251,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &26871859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -381,7 +383,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &63290200
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -542,7 +546,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &128835813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,7 +669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -672,7 +678,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &148986866
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,7 +757,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.7616773
+      value: -0.91307354
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
@@ -759,7 +767,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.269147
+      value: 15.880965
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
@@ -843,7 +851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -852,7 +860,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &155401225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -973,7 +983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -982,7 +992,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &155441327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1103,7 +1115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -1112,7 +1124,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &156061625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,7 +1278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -1273,7 +1287,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &167981196
 GameObject:
   m_ObjectHideFlags: 0
@@ -1425,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -1434,7 +1450,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &238341756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1555,7 +1573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -1564,7 +1582,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &242099106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1628,7 @@ GameObject:
   - component: {fileID: 262964008}
   - component: {fileID: 262964007}
   - component: {fileID: 262964006}
+  - component: {fileID: 262964012}
   - component: {fileID: 262964005}
   - component: {fileID: 262964011}
   - component: {fileID: 262964010}
@@ -1656,6 +1677,8 @@ MonoBehaviour:
   windStrength: 0.189
   furGravityStrength: 0
   furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!65 &262964006
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1780,6 +1803,27 @@ MonoBehaviour:
   sweepFalloff: 1.5
   sweepMomentum: 0.7
   movementSensitivity: 0.001
+  optimizeForVerticalFur: 0
+  horizontalBias: 0.8
+  addDownwardBias: 0
+  downwardBiasStrength: 0.2
+--- !u!114 &262964012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262964003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143dc6639144f284cbe3ad16ddfb74a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalFurStrength: 1
+  furLength: 0.05
+  furDensity: 1
+  shellCount: 16
+  optimizeSweepForVerticalFur: 1
 --- !u!1 &273488900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,7 +1975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -1940,7 +1984,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &325647635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -2101,7 +2147,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2189,7 +2237,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.43568882, y: -0, z: -0, w: 0.9000974}
-  m_LocalPosition: {x: -4.55, y: 0.91, z: -2.17}
+  m_LocalPosition: {x: -7.01, y: -2.74, z: 2.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2539,7 +2587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -2548,7 +2596,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &494598097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,7 +2750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -2709,7 +2759,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &514143629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2830,7 +2882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -2839,7 +2891,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &536316907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2897,7 +2951,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.5067506
+      value: -0.168
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
@@ -2907,7 +2961,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.250182
+      value: 15.862
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7bb21ffa12d126e419f4c6821d6c2df4,
         type: 3}
@@ -2991,7 +3045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3000,7 +3054,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &571530693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3121,7 +3177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3130,7 +3186,162 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
+--- !u!1 &594955157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 594955163}
+  - component: {fileID: 594955162}
+  - component: {fileID: 594955161}
+  - component: {fileID: 594955160}
+  - component: {fileID: 594955159}
+  - component: {fileID: 594955158}
+  m_Layer: 0
+  m_Name: FurSweepObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &594955158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7ffa578539b2b4e94dc4353ad772a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 330585545}
+  sweepRadius: 0.5
+  maxSweepStrength: 0.2
+  sweepFalloff: 1.5
+  sweepMomentum: 0.7
+  movementSensitivity: 0.001
+  optimizeForVerticalFur: 0
+  horizontalBias: 0.8
+  addDownwardBias: 0
+  downwardBiasStrength: 0.2
+--- !u!114 &594955159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shellCount: 24
+  furLength: 0.05
+  furDensity: 1.5
+  furThinness: 1
+  furShading: 0.25
+  furColor: {r: 1, g: 1, b: 1, a: 1}
+  windDirection: {x: 1, y: 0, z: 0, w: 0}
+  windStrength: 0.5
+  furGravityStrength: 0.25
   furPattern: {fileID: 0}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
+--- !u!23 &594955160
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &594955161
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &594955162
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &594955163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594955157}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &603289066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,7 +3493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3291,7 +3502,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &614302001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3412,7 +3625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3421,7 +3634,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &705315902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3542,7 +3757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3551,7 +3766,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &712337813
 GameObject:
   m_ObjectHideFlags: 0
@@ -3703,7 +3920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3712,7 +3929,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &776618756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3833,7 +4052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -3842,7 +4061,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &778530367
 GameObject:
   m_ObjectHideFlags: 0
@@ -3994,7 +4215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4003,7 +4224,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &799913017
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,7 +4378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4164,7 +4387,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4334,7 +4559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4343,7 +4568,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &864852909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4464,7 +4691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4473,7 +4700,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &873521461
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,7 +4854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4634,7 +4863,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &886190178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4755,7 +4986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4764,7 +4995,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &904963611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4885,7 +5118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -4894,7 +5127,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &911973676
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5015,7 +5250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -5024,7 +5259,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &912614195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,7 +5613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -5385,7 +5622,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1033410718
 GameObject:
   m_ObjectHideFlags: 0
@@ -5599,7 +5838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -5608,7 +5847,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1059631795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5729,7 +5970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -5738,7 +5979,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1062248825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5859,7 +6102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -5868,7 +6111,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1079022110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,6 +6207,110 @@ Transform:
   m_Children: []
   m_Father: {fileID: 326562913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1094167571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.815
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.948
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      propertyPath: m_Name
+      value: Moka
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150649831}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150649836}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150649830}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150649835}
+  m_SourcePrefab: {fileID: 100100000, guid: 88a1f780ab3515b44938413ac6a58ebb, type: 3}
 --- !u!1 &1113140970
 GameObject:
   m_ObjectHideFlags: 0
@@ -6113,7 +6462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -6122,7 +6471,100 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
+--- !u!1 &1150649829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 88a1f780ab3515b44938413ac6a58ebb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1094167571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1150649830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150649829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shellCount: 32
+  furLength: 0.01
+  furDensity: 0.28
+  furThinness: 1
+  furShading: 0.25
+  furColor: {r: 1, g: 1, b: 1, a: 1}
+  windDirection: {x: 1, y: 0, z: 0, w: 0}
+  windStrength: 0
+  furGravityStrength: 0.25
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
+--- !u!64 &1150649831
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150649829}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5473590528450623442, guid: 88a1f780ab3515b44938413ac6a58ebb, type: 3}
+--- !u!114 &1150649835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150649829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7ffa578539b2b4e94dc4353ad772a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  sweepRadius: 0.5
+  maxSweepStrength: 0.2
+  sweepFalloff: 1.5
+  sweepMomentum: 0.7
+  movementSensitivity: 0.001
+  optimizeForVerticalFur: 0
+  horizontalBias: 0.8
+  addDownwardBias: 0
+  downwardBiasStrength: 0.2
+--- !u!114 &1150649836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150649829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143dc6639144f284cbe3ad16ddfb74a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  verticalFurStrength: 0.287
+  furLength: 0.05
+  furDensity: 1
+  shellCount: 16
+  optimizeSweepForVerticalFur: 1
 --- !u!1 &1196860284
 GameObject:
   m_ObjectHideFlags: 0
@@ -6305,7 +6747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -6314,7 +6756,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1242514106
 GameObject:
   m_ObjectHideFlags: 0
@@ -6466,7 +6910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -6475,7 +6919,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1284548758
 GameObject:
   m_ObjectHideFlags: 0
@@ -6739,7 +7185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -6748,7 +7194,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1442390971
 GameObject:
   m_ObjectHideFlags: 0
@@ -6931,7 +7379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -6940,7 +7388,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1514120540
 GameObject:
   m_ObjectHideFlags: 0
@@ -6983,6 +7433,8 @@ MonoBehaviour:
   windStrength: 0.5
   furGravityStrength: 0.25
   furPattern: {fileID: 0}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!135 &1514120542
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7220,7 +7672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -7229,7 +7681,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1557754599
 GameObject:
   m_ObjectHideFlags: 0
@@ -7443,7 +7897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -7452,7 +7906,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1581100308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7573,7 +8029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -7582,7 +8038,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1601786804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7703,7 +8161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -7712,7 +8170,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1638102081
 GameObject:
   m_ObjectHideFlags: 0
@@ -7864,7 +8324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -7873,7 +8333,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1680272066
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,7 +8514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8061,7 +8523,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1776827131
 GameObject:
   m_ObjectHideFlags: 0
@@ -8368,7 +8832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8377,7 +8841,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1938599558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8498,7 +8964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8507,7 +8973,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &1994482840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8628,7 +9096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8637,7 +9105,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1001 &2002711747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8758,7 +9228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8767,7 +9237,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &2033538592
 GameObject:
   m_ObjectHideFlags: 0
@@ -8981,7 +9453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841c58fdf6e1b3541b0a306ebb4fe097, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shellCount: 16
+  shellCount: 32
   furLength: 0.05
   furDensity: 1
   furThinness: 1
@@ -8990,7 +9462,9 @@ MonoBehaviour:
   windDirection: {x: 1, y: 0, z: 0, w: 0}
   windStrength: 0.5
   furGravityStrength: 0.25
-  furPattern: {fileID: 0}
+  furPattern: {fileID: 2800000, guid: 3670d173244bab443a02bb1d0bdb7fa5, type: 2}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!1 &1738239375304294147
 GameObject:
   m_ObjectHideFlags: 0
@@ -9002,9 +9476,10 @@ GameObject:
   - component: {fileID: 7397541715009465400}
   - component: {fileID: 5656089722601592178}
   - component: {fileID: 9177154631372173798}
-  - component: {fileID: 9177154631372173801}
+  - component: {fileID: 9177154631372173803}
   - component: {fileID: 9177154631372173800}
   - component: {fileID: 9177154631372173799}
+  - component: {fileID: 9177154631372173802}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -9029,7 +9504,7 @@ Transform:
   m_GameObject: {fileID: 1738239375304294147}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.562087, y: -2.3622358, z: 0.52}
+  m_LocalPosition: {x: 0.72, y: -2.3622358, z: 0.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9099,6 +9574,8 @@ MonoBehaviour:
   windStrength: 0
   furGravityStrength: 0
   furPattern: {fileID: 0}
+  verticalDirection: {x: 0, y: 1, z: 0}
+  useVerticalDirection: 0
 --- !u!114 &9177154631372173800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9115,25 +9592,51 @@ MonoBehaviour:
   sweepRadius: 100
   maxSweepStrength: 50
   sweepFalloff: 1.5
-  sweepMomentum: 1
-  movementSensitivity: 0.003
---- !u!114 &9177154631372173801
+  sweepMomentum: 0.1
+  movementSensitivity: 0.001
+  optimizeForVerticalFur: 0
+  horizontalBias: 0.8
+  addDownwardBias: 0
+  downwardBiasStrength: 0.2
+--- !u!64 &9177154631372173802
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738239375304294147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 5f0f7b8b4b1874744a4a62dab996958b, type: 3}
+--- !u!114 &9177154631372173803
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738239375304294147}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 335c1c0d15c151b46baf3fb6ba94a944, type: 3}
+  m_Script: {fileID: 11500000, guid: 143dc6639144f284cbe3ad16ddfb74a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  brushRadius: 100
-  brushStrength: 0.1
-  brushFalloff: 1
-  brushRecoverySpeed: 2
+  verticalFurStrength: 1
+  furLength: 0.05
+  furDensity: 1
+  shellCount: 16
+  optimizeSweepForVerticalFur: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -9146,3 +9649,5 @@ SceneRoots:
   - {fileID: 148986868}
   - {fileID: 7397541715009465400}
   - {fileID: 1514120545}
+  - {fileID: 594955163}
+  - {fileID: 1094167571}

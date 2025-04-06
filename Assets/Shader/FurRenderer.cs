@@ -6,10 +6,10 @@ public class FurRenderer : MonoBehaviour
     [Range(1, 32)]
     public int shellCount = 16;
     
-    [Range(0.0f, 100f)]
+    [Range(0.0f, 0.2f)]
     public float furLength = 0.05f;
     
-    [Range(0.0f, 2f)]
+    [Range(0.0f, 2.0f)]
     public float furDensity = 1.0f;
     
     [Range(0.0f, 10.0f)]
@@ -29,6 +29,13 @@ public class FurRenderer : MonoBehaviour
     public float furGravityStrength = 0.25f;
     
     public Texture2D furPattern;
+    
+    [Header("Vertical Fur Options")]
+    public Vector3 verticalDirection = new Vector3(0, 1, 0);
+    
+    [Range(0.0f, 1.0f)]
+    [Tooltip("0 = Use normals, 1 = Use vertical direction")]
+    public float useVerticalDirection = 0f;
     
     private Material furMaterial;
     private Renderer rend;
@@ -88,6 +95,10 @@ public class FurRenderer : MonoBehaviour
         furMaterial.SetVector("_WindDirection", windDirection.normalized);
         furMaterial.SetFloat("_WindStrength", windStrength);
         furMaterial.SetFloat("_FurGravityStrength", furGravityStrength);
+        
+        // Set vertical fur properties
+        furMaterial.SetVector("_VerticalDir", new Vector4(verticalDirection.x, verticalDirection.y, verticalDirection.z, 0));
+        furMaterial.SetFloat("_UseVerticalDir", useVerticalDirection);
         
         // Draw the base mesh with the object's original material
         Graphics.DrawMesh(rend.GetComponent<MeshFilter>().sharedMesh, transform.localToWorldMatrix,
