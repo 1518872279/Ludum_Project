@@ -6,10 +6,10 @@ public class FurRenderer : MonoBehaviour
     [Range(1, 32)]
     public int shellCount = 16;
     
-    [Range(0.0f, 0.2f)]
+    [Range(0.0f, 100f)]
     public float furLength = 0.05f;
     
-    [Range(0.0f, 2.0f)]
+    [Range(0.0f, 2f)]
     public float furDensity = 1.0f;
     
     [Range(0.0f, 10.0f)]
